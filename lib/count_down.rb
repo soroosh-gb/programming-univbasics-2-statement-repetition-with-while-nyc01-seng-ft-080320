@@ -1,12 +1,8 @@
-while true do
-  puts "do this forever..."
-end
+count = 10 
 
-count = 0 
-
-while count < 3 do
-  puts "Lets count #{count}!"
-    count += 1
-  end
-  
+while count >= 1 do 
+  puts #{count}
+  count -= 1 
+end 
+  puts "Happy New Year!"
   
